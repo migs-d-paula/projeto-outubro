@@ -16,6 +16,11 @@
     margin-left: 25%;
 }
 
+.bg-body-tertiary
+{
+    display: block;
+}
+
 
 
 @media screen and (max-width: 600px) 

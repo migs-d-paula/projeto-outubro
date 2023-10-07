@@ -10,11 +10,9 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>OUTUBRO ROSA</title>
+    <title>SOBRE</title>
 </head>
 <body>
-    
-
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -33,34 +31,5 @@
     </div>
     </nav>
 
-
-    <!-- IMPORTAÇÃO CAROUSSEL -->
-
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/mama.png" class="d-block w-100" href="cadastro.php" alt="CADASTRO">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>CADASTRO</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/sobre.png" class="d-block w-100" alt="SOBRE">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>SOBRE</h5>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"><--</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">--></span>
-        </button>
-    </div>
-
     
 </body>
-</html>
