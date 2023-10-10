@@ -39,6 +39,7 @@
     position: relative;
 
     float: left;
+    overflow: hidden;
 
     height: 75%;
     width: 300px;
@@ -53,12 +54,8 @@
 .imagens
 {
     position: relative;
-    overflow: hidden;
 
     height: 100%;
-    width: 300px;
-
-    border-radius: 5%;
 }
 
 .texto
