@@ -36,26 +36,26 @@
     <!-- INFO PESSOAS -->
 
     <br><br>
-    <form>
+    <form action="cadastroconfirma.php" method="post">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nome</label>
-    <input name="campo-nome" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input name="campo-nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Sonrenome</label>
-    <input name="campo-sobrenome" type="password" class="form-control" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">Sobrenome</label>
+    <input name="campo-sobrenome" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Idade</label>
-    <input name="campo-idade" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input name="campo-idade" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Email</label>
-    <input name="campo-email" type="password" class="form-control" id="exampleInputPassword1">
+    <input name="campo-email" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Telefone</label>
-    <input name="campo-telefone" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input name="campo-telefone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <br>
   <button type="submit" class="btn btn-primary">CONFIRMAR</button>

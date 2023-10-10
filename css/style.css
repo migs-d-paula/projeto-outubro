@@ -21,7 +21,60 @@
     display: block;
 }
 
+.quadrado
+{
+    position: relative;
+    float: left;
 
+    height: 430px;
+    width: 45%;
+
+    margin: 10px;
+
+    background-color: aliceblue;
+}
+
+.divisao
+{
+    position: relative;
+
+    float: left;
+
+    height: 75%;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 2%;
+
+    background-color: rgb(255, 155, 171);
+
+    border-radius: 5%;
+}
+
+.imagens
+{
+    position: relative;
+    overflow: hidden;
+
+    height: 100%;
+    width: 300px;
+
+    border-radius: 5%;
+}
+
+.texto
+{
+    width: 60%;
+    height: 130px;
+    position:relative;
+    float: left;
+
+    margin-top: 15%;
+    margin-left: 2%;
+
+    text-align: center;
+
+    color: black;
+}
 
 @media screen and (max-width: 600px) 
 {
@@ -40,5 +93,43 @@
     {
         margin-left: 2%;
         width: 90%;
+    }
+
+    .quadrado
+    {
+        height: 700px;
+        width: 100%;
+    }
+
+    .divisao
+    {
+
+        height: 300px;
+        width: 100%;
+
+        margin: 0%;
+
+        border-radius: 0%;
+    }
+
+    .texto
+    {
+        width: 90%;
+        height: 300px;
+
+        margin-left: 5%;
+
+        text-align: center;
+    }
+
+    .imagens
+    {
+        position: relative;
+        overflow: hidden;
+
+        height: 100%;
+        width: 100%;
+
+        border-radius: 0%;
     }
 }
